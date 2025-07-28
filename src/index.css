@@ -123,7 +123,7 @@ All colors MUST be HSL.
     --chat--color-light-shade-50: #e6e9f1;
     --chat--color-light-shade-100: #c2c5cc;
     --chat--color-medium: #d2d4d9;
-    --chat--color-dark: #155 30% 15%; /* Match Garden Paradise dark */
+    --chat--color-dark: #2a4d3a; /* Match Garden Paradise dark */
     --chat--color-disabled: #777980;
     --chat--color-typing: #404040;
 
@@ -164,7 +164,6 @@ All colors MUST be HSL.
     --chat--toggle--color: var(--chat--color-white);
     --chat--toggle--size: 64px;
   }
-}
 }
 
 @layer base {
