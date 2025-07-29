@@ -15,10 +15,10 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
         <div className="max-w-2xl text-white">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight bg-gradient-to-r from-white via-white/95 to-white/90 bg-clip-text text-transparent drop-shadow-2xl">
             Welcome to Garden Paradise
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-white/90">
+          <p className="text-xl md:text-2xl mb-8 text-white/95 drop-shadow-lg font-light leading-relaxed">
             Your one-stop shop for gardening, aquariums, and thoughtful gifts. 
             Nurturing life and creating beauty in every home.
           </p>

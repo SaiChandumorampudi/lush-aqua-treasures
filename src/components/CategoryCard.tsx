@@ -12,7 +12,7 @@ interface CategoryCardProps {
 
 const CategoryCard = ({ title, description, image, buttonText, buttonVariant, features }: CategoryCardProps) => {
   return (
-    <Card className="group overflow-hidden hover:shadow-nature transition-all duration-500 transform hover:-translate-y-2">
+    <Card className="group overflow-hidden hover:shadow-floating transition-all duration-500 transform hover:-translate-y-3 hover:rotate-1 backdrop-blur-sm border-2 border-white/10">
       <div className="relative h-64 overflow-hidden">
         <img 
           src={image} 
