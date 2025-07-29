@@ -167,6 +167,13 @@ All colors MUST be HSL.
     --chat--toggle--active--background: var(--chat--color-primary-shade-100);
     --chat--toggle--color: var(--chat--color-white);
     --chat--toggle--size: 64px;
+
+    /* Send button styling */
+    --chat--send-button--background: var(--chat--color-primary);
+    --chat--send-button--hover--background: var(--chat--color-primary-shade-50);
+    --chat--send-button--active--background: var(--chat--color-primary-shade-100);
+    --chat--send-button--color: var(--chat--color-white);
+    --chat--send-button--typing--background: #228B22; /* Bright green when typing */
   }
 }
 
